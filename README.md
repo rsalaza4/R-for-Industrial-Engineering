@@ -8,6 +8,7 @@ This repository contains R codes for several analytical tools mainly used by ind
 
 ## Packages
 
+* [DiagrammeR](https://cran.r-project.org/web/packages/DiagrammeR/DiagrammeR.pdf)
 * [dplyr](https://cran.r-project.org/web/packages/dplyr/dplyr.pdf)
 * [grid](https://stat.ethz.ch/R-manual/R-devel/library/grid/doc/grid.pdf)
 * [lpSolve](https://cran.r-project.org/web/packages/lpSolve/lpSolve.pdf)
