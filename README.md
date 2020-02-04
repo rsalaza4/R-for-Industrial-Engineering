@@ -11,6 +11,7 @@ This repository contains R codes for several analytical tools mainly used by ind
 * [DiagrammeR](https://cran.r-project.org/web/packages/DiagrammeR/DiagrammeR.pdf)
 * [dplyr](https://cran.r-project.org/web/packages/dplyr/dplyr.pdf)
 * [grid](https://stat.ethz.ch/R-manual/R-devel/library/grid/doc/grid.pdf)
+* [lattice](https://cran.r-project.org/web/packages/lattice/lattice.pdf)
 * [lpSolve](https://cran.r-project.org/web/packages/lpSolve/lpSolve.pdf)
 * [plotrix](https://cran.r-project.org/web/packages/plotrix/plotrix.pdf)
 * [qcc](https://cran.r-project.org/web/packages/qcc/qcc.pdf)
