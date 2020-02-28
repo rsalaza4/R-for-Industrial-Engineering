@@ -17,3 +17,4 @@ This repository contains R codes for several analytical tools mainly used by ind
 * [qcc](https://cran.r-project.org/web/packages/qcc/qcc.pdf)
 * [SCperf](https://cran.r-project.org/web/packages/SCperf/SCperf.pdf)
 * [SixSigma](https://cran.r-project.org/web/packages/SixSigma/SixSigma.pdf)
+* [timelineS](https://cran.r-project.org/web/packages/timelineS/timelineS.pdf)
