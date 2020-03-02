@@ -15,6 +15,7 @@ This repository contains R codes for several analytical tools mainly used by ind
 * [lpSolve](https://cran.r-project.org/web/packages/lpSolve/lpSolve.pdf)
 * [plotrix](https://cran.r-project.org/web/packages/plotrix/plotrix.pdf)
 * [qcc](https://cran.r-project.org/web/packages/qcc/qcc.pdf)
+* [queueing](https://cran.r-project.org/web/packages/queueing/queueing.pdf)
 * [SCperf](https://cran.r-project.org/web/packages/SCperf/SCperf.pdf)
 * [SixSigma](https://cran.r-project.org/web/packages/SixSigma/SixSigma.pdf)
 * [timelineS](https://cran.r-project.org/web/packages/timelineS/timelineS.pdf)
