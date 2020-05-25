@@ -12,7 +12,7 @@ names(defects) <- c()
 # Create the Pareto chart
 pareto.chart(defects,
              ylab = "Frequency",
-             y2lab ="Cumulative Percentage",
+             ylab2 ="Cumulative Percentage",
              main = "Pareto Chart for ...",
              cumperc = seq(0, 100, by = 20))
 
