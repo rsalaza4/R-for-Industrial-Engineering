@@ -28,6 +28,6 @@ names(defects) <- c("Defect 1", "Defect 2", "Defect 3", "Defect 4",
 
 pareto.chart(defects,
              ylab = "Frequency",
-             y2lab ="Cumulative Percentage",
+             ylab2 ="Cumulative Percentage",
              main = "Pareto Chart",
              cumperc = seq(0, 100, by = 20))
