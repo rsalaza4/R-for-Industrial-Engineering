@@ -63,7 +63,7 @@ production_run_length <- as.numeric(Q[2]*12)
 print(paste("Production run length (months):", round(production_run_length, digits = 2)))
 
 demand_period_length <- as.numeric(Q[2]*12)
-print(paste("Demnand period length (months):", round(production_cycle_length-production_run_length, digits = 2)))
+print(paste("Demand period length (months):", round(production_cycle_length-production_run_length, digits = 2)))
 
 annual_production_cost <- as.numeric(number_of_production_runs*K)
 print(paste("Annual production run cost:", round(annual_production_cost, digits = 2)))
