@@ -7,14 +7,14 @@
 # Because of the high popularity of its product, the factory may use overtime to satisfy the demand. 
 # The table below provides the production capacities and the demands for each yearly quarter.
 
-# |-------------------------------------------------------------------------|
-# | Quarter | Regular Capacity (units) | Overtime Capacity (units) | Demand |
-# |-------------------------------------------------------------------------|
-# |    1    |            90            |             50            |   100  |
-# |    2    |           100            |             60            |   190  |
-# |    3    |           120            |             80            |   210  |
-# |    4    |           110            |             70            |   160  |
-# |-------------------------------------------------------------------------|
+# |--------------------------------------------------------------------------|
+# | Quarter | Regular Capacity (units) | Overtime Capacity (units) | Demand  |
+# |--------------------------------------------------------------------------|
+# |    1    |            90            |             50            |   100   |
+# |    2    |           100            |             60            |   190   |
+# |    3    |           120            |             80            |   210   |
+# |    4    |           110            |             70            |   160   |
+# |--------------------------------------------------------------------------|
 
 # The unit product cost in any period is $6 during regular time and $9 during overtime. 
 # Holding cost per unit per quarter is $0.10.
