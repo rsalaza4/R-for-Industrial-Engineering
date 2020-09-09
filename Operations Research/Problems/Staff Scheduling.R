@@ -6,7 +6,7 @@
 # 10 on Monday, 12 on Tuesday, 20 on Wednesday, 17 on Thursday, 15 on Friday, 12 on Saturday and 5 on Sunday. 
 # Each employee must work five consecutive days and then receive two days off.
 
-# QUESTIONS:
+# QUESTIONS
 
 # - What scheduling plan will minimize the number of required staff?
 # - Which is the optimum number of staff to hire?
