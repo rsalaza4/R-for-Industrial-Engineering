@@ -18,6 +18,13 @@
 # | Cap. limit |    $12 |     $8 |    $8 |      $4 |       |
 # |--------------------------------------------------------|
 
+# In addition to the capital constraints, there are 4 additional constraints to be taken into consideration:
+
+# - Projects 4 and 5 are mutually exclusive
+# - Maximum 4 projects can be selected
+# - Project 4 depends on project 2
+# - Projects 1 and 3 must go together
+
 # QUESTIONS
 
 # - What combination of projects will maximize the net present value?
