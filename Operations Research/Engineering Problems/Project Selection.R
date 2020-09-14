@@ -1,5 +1,30 @@
 ### PROJECT SELECTION ###
 
+# PROBLEM DESCRIPTION
+
+# A company is interested in investing in multiple projects for the next four years.
+# However, the company has limited budget for each year as shown on the table below:
+
+# |--------------------------------------------------------|
+# |            |   Capital Requirement (millions)  |       |
+# |   Project  | Year 1 | Year 2 | Year 3 | Year 4 |  NPV  |
+# |--------------------------------------------------------|
+# |      1     |     $3 |     $0 |     $0 |     $0 |    $2 |
+# |      2     |     $0 |     $5 |     $1 |     $0 |    $2 |
+# |      3     |     $1 |     $2 |     $1 |     $2 |    $2 |
+# |      4     |    $10 |     $4 |     $2 |     $0 |    $2 |
+# |      5     |     $2 |     $0 |     $5 |     $1 |    $2 |
+# |--------------------------------------------------------|
+# | Cap. limit |    $12 |     $8 |    $8 |      $4 |       |
+# |--------------------------------------------------------|
+
+# QUESTIONS
+
+# - What combination of projects will maximize the net present value?
+# - Which is the maximum expected net present value that can be achieved?
+
+# R CODE
+
 # Import lpSolve package
 library(lpSolve)
 
