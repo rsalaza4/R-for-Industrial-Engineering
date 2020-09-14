@@ -11,10 +11,10 @@ f.con <- matrix(c(3,  0,  1, 10,  2,      # capital limit year #1
                   0,  5,  2,  4,  0,      # capital limit year #2 
                   0,  1,  1,  2,  5,      # capital limit year #3 
                   0,  0,  2,  0,  1,      # capital limit year #4 
-                  0,  0,  0,  1,  1,      # projects D and E mutually exclusive
+                  0,  0,  0,  1,  1,      # projects 4 and 5 mutually exclusive
                   1,  1,  1,  1,  1,      # maximum of 4 projects accepted
-                  0, -1,  0,  1,  0,      # project D depends on project B
-                  1,  0,  -1, 0,  0),     # project A and project C go together
+                  0, -1,  0,  1,  0,      # project 4 depends on project 2
+                  1,  0, -1,  0,  0),     # project 1 and project 3 go together
                 nrow = 8, byrow = TRUE)
 
 # Set unequality signs
