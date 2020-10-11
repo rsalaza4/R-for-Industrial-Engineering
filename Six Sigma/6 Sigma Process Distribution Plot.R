@@ -1,4 +1,4 @@
-### 6 Sigma Process Distribution ###
+### 6 SIGMA PROCESS DISTRIBUTION PLOT ###
 
 curve(dnorm(x, mean = 10, sd = 1),
       from = 3, 
