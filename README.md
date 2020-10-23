@@ -25,4 +25,4 @@ This repository contains R codes for several analytical tools mainly used by ind
 
 ### Roberto Salazar
 
-***Email:*** rsalaza4@binghamton.edu | [LinkedIn](https://www.linkedin.com/in/roberto-salazar-reyna/) | [Medium](https://medium.com/@rsalaza4)
+**Email:** rsalaza4@binghamton.edu | [LinkedIn](https://www.linkedin.com/in/roberto-salazar-reyna/) | [Medium](https://medium.com/@rsalaza4)
