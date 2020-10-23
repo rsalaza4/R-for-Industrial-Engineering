@@ -25,7 +25,8 @@ This repository contains R codes for several analytical tools mainly used by ind
 
 ### Roberto Salazar
 
-*Industrial and Systems Engineer, MSc. BSc.*
+*Industrial and Systems Engineer, MS*
+
 *Certified Lean Six Sigma Green Belt*
 
 **Email:** rsalaza4@binghamton.edu | [LinkedIn](https://www.linkedin.com/in/roberto-salazar-reyna/) | [Medium](https://medium.com/@rsalaza4)
