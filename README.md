@@ -20,3 +20,9 @@ This repository contains R codes for several analytical tools mainly used by ind
 * [SCperf](https://cran.r-project.org/web/packages/SCperf/SCperf.pdf)
 * [SixSigma](https://cran.r-project.org/web/packages/SixSigma/SixSigma.pdf)
 * [timelineS](https://cran.r-project.org/web/packages/timelineS/timelineS.pdf)
+
+---
+
+### Roberto Salazar
+
+**Email:** rsalaza4@binghamton.edu | [LinkedIn](https://www.linkedin.com/in/roberto-salazar-reyna/) | 
