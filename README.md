@@ -1,7 +1,5 @@
 # R for Industrial Engineering
 
-![Industrial Engineering](https://i0.wp.com/nonahoodnews.com/wp-content/uploads/2018/01/AdobeStock_78997316-e1517334209151.jpeg?fit=4167%2C2333&ssl=1)
-
 ## Description
 
 This repository contains R codes for several analytical tools mainly used by industrial and systems engineers, quality engineers, process improvement engineers, supply chain analysts and operations managers during the planning and execution of lean six sigma projects, continuous improvement projects, kaizen events and quality circles.
