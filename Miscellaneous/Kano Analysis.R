@@ -20,7 +20,7 @@ ggplot(data = data.frame(x = 0), aes(x = x)) +
   stat_function(aes(colour = "Performance Attributes"), fun = fun.1) +
   stat_function(aes(colour = "Excitement Attributes"), fun = fun.2) +
   stat_function(aes(colour = "Threshold Attributes"), fun = fun.3) +
-  stat_function(aes(colour = "Indiferent Attributes"), fun = fun.4) +
+  stat_function(aes(colour = "Indifferent Attributes"), fun = fun.4) +
   
   # Set plot limits
   xlim(-5,5) +
@@ -39,7 +39,7 @@ ggplot(data = data.frame(x = 0), aes(x = x)) +
   scale_color_manual(values = c("Performance Attributes" = "lightblue",
                                 "Excitement Attributes" = "green", 
                                 "Threshold Attributes" = "red",
-                                "Indiferent Attributes" = "darkgrey")) +
+                                "Indifferent Attributes" = "darkgrey")) +
   
   # Customize plot legends
   theme(legend.title=element_blank()) +
