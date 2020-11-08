@@ -7,7 +7,7 @@ library(ggplot2)
 fun.1 <- function(x) x                      # performance attributes
 fun.2 <- function(x) 0.1*x^2 + x + 3        # excitement attributes
 fun.3 <- function(x) -(0.1*x^2 - x + 3)     # threshold attributes
-fun.4 <- function(x) 1                      # indifferent attributes
+fun.4 <- function(x) 0                      # indifferent attributes
 
 # Build Kano plot
 ggplot(data = data.frame(x = 0), aes(x = x)) +
