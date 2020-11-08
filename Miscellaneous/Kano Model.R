@@ -1,4 +1,4 @@
-### KANO ANALYSIS ###
+### KANO MODEL ###
 
 # Import ggplot package
 library(ggplot2)
@@ -46,8 +46,8 @@ ggplot(data = data.frame(x = 0), aes(x = x)) +
   theme(legend.position="bottom") +
   
   # Add title, subtitle, and axes titles
-  labs(title = "Kano Analysis",
-       subtitle = "University Services",
+  labs(title = "Kano Model",
+       subtitle = "for University Services",
        x = "Functionality",
        y = "Satisfaction") +
   
