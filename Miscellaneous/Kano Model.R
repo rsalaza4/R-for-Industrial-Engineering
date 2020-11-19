@@ -1,6 +1,6 @@
 ### KANO MODEL ###
 
-# Import ggplot package
+# Import ggplot2 package
 library(ggplot2)
 
 # Define attributes functions
