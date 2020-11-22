@@ -1,14 +1,14 @@
 ### GRAPHICAL METHOD ###
 
-# Import ggplot2 package
-library(ggplot2)
-
 # Define constraints
 cons.1 <- function(x) 6 - x  
 cons.2 <- function(x) 5 - 0.5*x
 # cons.3 x1 = 4 (plotted using geom_vline)
 # cons.4 x1 = 0 (defined by setting x1 axis limits)
 # cons.5 x2 = 0 (defined by setting x2 axis limits)
+
+# Import ggplot2 package
+library(ggplot2)
 
 # Build plot
 p <- ggplot(data = data.frame(x = 0), aes(x = x)) +
