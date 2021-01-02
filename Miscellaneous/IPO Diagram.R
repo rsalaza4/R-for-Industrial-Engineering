@@ -6,6 +6,7 @@ library(grid)
 # Import SixSigma package
 library(SixSigma)
 
+# Build boxes
 # Inputs Box
 grid.roundrect(width = 0.2,                     # set box width
                height = unit(3, "inches"),      # set box height
@@ -36,7 +37,7 @@ grid.text("OUTPUTS\n\n\n\n\n\n\n",
           just = "top",
           gp = gpar(fontsize = 10))
 
-# Create connecting Lines
+# Create connecting lines
 # From 'Inputs' box to 'Process' box
 grid.lines(x = c(0.3, 0.4),                   # x = c(a, b) refers to the line x position
            y = c(0.5, 0.5),                   # y = c(a, b) refers to the line y position
@@ -49,7 +50,6 @@ grid.lines(x = c(0.6, 0.7),
 
 # EXAMPLE
 
-# Inputs Box
 grid.roundrect(width = 0.2,                     
                height = unit(3, "inches"),      
                x = 0.2)                         
@@ -59,7 +59,6 @@ grid.text("INPUTS\n\nGrade 1\nGrade 2\nGrade 3",
           just = "top",
           gp = gpar(fontsize = 10))
 
-# Process Box 
 grid.roundrect(width = 0.2,                       
                height = unit(3, "inches"),      
                x = 0.5)                          
@@ -69,7 +68,6 @@ grid.text("PROCESS\n\nSum all grades\n\nDivide sum by\nnumber of grades",
           just = "top",
           gp = gpar(fontsize = 10)) 
 
-# Outputs Box
 grid.roundrect(width = 0.2,                       
                height = unit(3, "inches"),
                x = 0.8)                          
@@ -79,13 +77,10 @@ grid.text("OUTPUTS\n\nStudent Grade\nAverage",
           just = "top",
           gp = gpar(fontsize = 10))               
 
-# Create connecting Lines
-# From 'Inputs' box to 'Process' box
 grid.lines(x = c(0.3, 0.4),                   
            y = c(0.5, 0.5),                   
            arrow = arrow())                 
 
-# From 'Process' box to 'Outputs' box
 grid.lines(x = c(0.6, 0.7),                   
            y = c(0.5, 0.5),                       
            arrow = arrow()) 
