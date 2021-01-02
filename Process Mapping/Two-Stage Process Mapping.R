@@ -19,7 +19,7 @@ grid.text("INPUTS\n\n\n\n\n",                     # type in text to be displayed
 grid.roundrect(width = 0.25,                      # width refers to the boxes' width
                height = unit(2.6, "inches"),      # height refers to the boxes' height
                x = 0.75)                          # x refers to the x position of the box
-grid.text("OUTPUTS\n\n\n\n\n\n\n",                # yype in text to be displayed
+grid.text("OUTPUTS\n\n\n\n\n\n\n",                # type in text to be displayed
           x = 0.75,                               # x refers to the x position of the text
           y = .6,                                 # y refers to the y position of the text
           just = "top")                           # just refers to the text justification
