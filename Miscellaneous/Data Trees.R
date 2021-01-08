@@ -8,25 +8,25 @@ algorithms <- Node$new("Machine Learning Algorithms")
 
 # Create and define root childs
 
-  # Classification algotihms
+  # Classification algorithms
   classification <- algorithms$AddChild("Classification")
     linear_svc <- classification$AddChild("Linear SVC")
     sgd_classifier <- classification$AddChild("SGD Classifier")
     naive_bayes <- classification$AddChild("Naive Bayes")
     knn <- classification$AddChild("K-Nearest Neighbors")
   
-  # Regression algotihms
+  # Regression algorithms
   regression <- algorithms$AddChild("Regression")
     sgd_regressor <- regression$AddChild("SGD Regressor")
     lasso <- regression$AddChild("Lasso")
     ridge <- regression$AddChild("Ridge Regressor")
   
-  # Clustering algotihms  
+  # Clustering algorithms  
   clustering <- algorithms$AddChild("Clustering")
     kmeans <- clustering$AddChild("K-Means")
     gmm <- clustering$AddChild("GMM") 
   
-  # Dimemnsionality reductions algotihms  
+  # Dimemnsionality reduction algorithms  
   dimensionality_reduction <- algorithms$AddChild("Dimensionality Reduction")
     pca <- dimensionality_reduction$AddChild("Randomized PCA")
     isomap <- dimensionality_reduction$AddChild("Isomap")
