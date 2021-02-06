@@ -76,7 +76,7 @@ stratified_sample <- stratified(df, "Cluster", 0.2)
 stratified_sample
 
 # Get the mean for those clusters samples
-stratified_sample_means <- aggregate(stratified_sample[, 3], list(stratified_sample$Cluster), mean)
+stratified_sample_means <- aggregate(stratified_sample[, 2], list(stratified_sample$Cluster), mean)
 
 # Change column names
 colnames(stratified_sample_means) <- c("Cluster", "Stratified_Sample_Mean")
