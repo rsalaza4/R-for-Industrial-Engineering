@@ -72,7 +72,7 @@ clusters_sample_means
 
 # STRATIFIED CLUSTER SAMPLING
 # Take a 20% sample from all clusters (i.e. 2 samples per cluster)
-stratified_sample <- stratified(df_clusters, "Cluster", 0.2)
+stratified_sample <- stratified(df, "Cluster", 0.2)
 stratified_sample
 
 # Get the mean for those clusters samples
