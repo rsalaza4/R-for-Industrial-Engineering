@@ -24,7 +24,7 @@ random_sample
 random_sample_mean  <- round(mean(random_sample), digits=2)
 print(paste("Simple random sample mean: ", random_sample_mean))
 
-# Comprare the simple random sample mean with the real mean
+# Compare the simple random sample mean with the real mean
 print(paste("Absolute difference between simple random sample mean and real mean: ", round(abs(real_mean - random_sample_mean), digits=2)))
 
 # SYSTEMATIC SAMPLING
@@ -43,7 +43,7 @@ systematic_sample
 systematic_sample_mean <- round(mean(systematic_sample), digits=2)
 print(paste("Systematic sample mean: ", systematic_sample_mean))
 
-# Comprare the systematic sample mean with the real mean
+# Compare the systematic sample mean with the real mean
 print(paste("Absolute difference between systematic sample mean and real mean: ", round(abs(real_mean - systematic_sample_mean), digits=2)))
 
 # Assign items to a cluster
@@ -85,6 +85,6 @@ stratified_sample_means
 # Add clusters real means column
 stratified_sample_means$Real_Mean <- real_clusters_means$Real_Mean
 
-# Comprare the stratified clusters sample means with the real clusters means
+# Compare the stratified clusters sample means with the real clusters means
 stratified_sample_means$Abs_Difference <- abs(stratified_sample_means$Stratified_Sample_Mean - stratified_sample_means$Real_Mean)
 stratified_sample_means
