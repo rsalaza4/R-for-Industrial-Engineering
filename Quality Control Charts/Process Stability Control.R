@@ -149,8 +149,9 @@ for (number in data$count){
 R2_LOWER <- c("-", "-")
 i <- 3
 while(i <= length(data$count)){
-  if(((data$count[i] < data$lower_two_sigma[i] & data$count[i-1] < data$lower_two_sigma[i-1])|
-      (data$count[i] < data$lower_one_sigma[i] & data$count[i-2] < data$lower_two_sigma[i-2]))){
+  if((data$count[i] < data$lower_two_sigma[i] & data$count[i-1] < data$lower_two_sigma[i-1])|
+     (data$count[i] < data$lower_one_sigma[i] & data$count[i-2] < data$lower_two_sigma[i-2])|
+     (data$count[i-1] < data$lower_one_sigma[i-1] & data$count[i-2] < data$lower_two_sigma[i-2])){
     rule2_lower <- FALSE
   }
   R2_LOWER <- append(R2_LOWER, rule2_lower)
@@ -162,8 +163,9 @@ while(i <= length(data$count)){
 R2_UPPER <- c("-", "-")
 i <- 3
 while(i <= length(data$count)){
-  if(((data$count[i] > data$upper_two_sigma[i] & data$count[i-1] > data$upper_two_sigma[i-1])|
-      (data$count[i] > data$upper_two_sigma[i] & data$count[i-2] > data$upper_two_sigma[i-2]))){
+  if((data$count[i] > data$upper_two_sigma[i] & data$count[i-1] > data$upper_two_sigma[i-1])|
+     (data$count[i] > data$upper_two_sigma[i] & data$count[i-2] > data$upper_two_sigma[i-2])|
+     (data$count[i-1] > data$upper_two_sigma[i-1] & data$count[i-2] > data$upper_two_sigma[i-2])){
     rule2_upper <- FALSE
   }
   R2_UPPER <- append(R2_UPPER, rule2_upper)
